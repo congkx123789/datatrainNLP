@@ -54,31 +54,46 @@ datatrainNLP/
 │       └── train_constrained.jsonl   <-- Dữ liệu train điền chỗ trống cuối cùng (Tự động tạo)
 ```
 
+## 3. Khôi phục dữ liệu tự động (Nhanh nhất)
+
+Chúng tôi đã viết sẵn script tự động chạy toàn bộ quy trình tải và xử lý dữ liệu. Bạn chỉ cần chạy đúng 1 lệnh duy nhất:
+
+### Cách A: Cho máy Windows (Double-click chạy ngay)
+Double-click chuột vào file:
+`restore_data.bat`
+
+### Cách B: Chạy qua Terminal (Mọi hệ điều hành)
+Gõ lệnh:
+```bash
+python scripts/restore_data.py
+```
+Hệ thống sẽ tự động thực hiện tuần tự 4 bước phục hồi dưới đây.
+
 ---
 
-## 3. Các lệnh phục hồi dữ liệu tự động (Chạy theo thứ tự)
+## 4. Chi tiết các bước khôi phục thủ công (Nếu không dùng script tự động)
 
-Chạy lần lượt các lệnh sau trong thư mục dự án để phục hồi 100% dữ liệu thô và dữ liệu đã tiền xử lý:
+Nếu muốn chạy thủ công từng bước, bạn chạy lần lượt các lệnh sau trong thư mục dự án:
 
-### Lệnh 1: Tải và giải nén các từ điển phân tách từ (Jieba, HanLP, THUOCL)
+### Bước 1: Tải và giải nén các từ điển phân tách từ (Jieba, HanLP, THUOCL)
 Lệnh này sẽ tự động tải các bộ từ điển gốc Trung Quốc từ internet và lọc lấy các từ ghép dài >= 4 chữ Hán:
 ```bash
 python scripts/filter_lexicons.py
 ```
 
-### Lệnh 2: Tải dữ liệu từ điển Hán Việt (hanviet.csv)
+### Bước 2: Tải dữ liệu từ điển Hán Việt (hanviet.csv)
 Lệnh này tải bảng ánh xạ chữ Hán sang âm Hán Việt chuẩn:
 ```bash
 python scripts/download_hanviet_csv.py
 ```
 
-### Lệnh 3: Tạo dữ liệu song ngữ Trung - Việt mẫu (zh_vi_tatoeba.jsonl)
+### Bước 3: Tạo dữ liệu song ngữ Trung - Việt mẫu (zh_vi_tatoeba.jsonl)
 Tạo file dữ liệu song ngữ chuẩn có chứa các câu thơ cổ, thành ngữ và tên riêng mẫu:
 ```bash
 python scripts/prepare_synthetic_data.py
 ```
 
-### Lệnh 4: Chạy tiền xử lý chèn thẻ gợi ý (Dữ liệu train cuối cùng)
+### Bước 4: Chạy tiền xử lý chèn thẻ gợi ý (Dữ liệu train cuối cùng)
 Lệnh này đọc dữ liệu song ngữ thô, chạy Jieba phân tích cú pháp, tra từ điển Hán Việt và đóng gói ra file `train_constrained.jsonl` chứa các tag cưỡng bức dạng `<vi: ...>`:
 ```bash
 python scripts/prepare_constrained_data.py
@@ -86,7 +101,7 @@ python scripts/prepare_constrained_data.py
 
 ---
 
-## 4. Kiểm tra xem hệ thống đã hoạt động chuẩn chưa
+## 5. Kiểm tra xem hệ thống đã hoạt động chuẩn chưa
 Sau khi chạy xong 4 lệnh trên, bạn có thể chạy thử lệnh kiểm tra tốc độ dịch thuật để đảm bảo môi trường đã cài đặt hoàn hảo:
 ```bash
 python scripts/optimize_and_benchmark.py
