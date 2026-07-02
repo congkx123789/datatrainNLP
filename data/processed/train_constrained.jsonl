@@ -1,9 +1,9 @@
-{"zh_raw": "更上一层楼才能看到更好的风景。", "zh_tagged": "更上一层楼才能看到更好的风景。", "vi": "Phải tiến thêm một bước nữa mới có thể nhìn thấy phong cảnh đẹp hơn.", "has_hint": false}
-{"zh_raw": "古人云：民以食为天。", "zh_tagged": "古人云<vi: Cổ Nhân Vân>：民以食为天<vi: Dân Dĩ Thực Vi Thiên>。", "vi": "Người xưa nói: Dân dĩ thực vi thiên (Dân coi ăn là trời).", "has_hint": true}
-{"zh_raw": "虽然路漫漫其修远兮，但他依然在坚持。", "zh_tagged": "虽然路漫漫其修远兮<vi: Lộ Mạn Mạn Kỳ Tu Viễn Hề>，但他依然在坚持。", "vi": "Mặc dù đường đi thăm thẳm xa xôi biết bao, nhưng anh ấy vẫn đang kiên trì.", "has_hint": true}
+{"zh_raw": "更上一层楼才能看到更好的风景。", "zh_tagged": "更上一层楼<vi: Canh Thướng Nhất Tầng Lâu>才能看到更好的风景。", "vi": "Phải Canh Thượng Nhất Tầng Lâu mới có thể nhìn thấy phong cảnh đẹp hơn.", "has_hint": true}
+{"zh_raw": "古人云：民以食为天。", "zh_tagged": "古人云<vi: Cổ Nhân Vân>：民以食为天<vi: Dân Dĩ Thực Vi Thiên>。", "vi": "Cổ Nhân Vân: Dân dĩ thực vi thiên (Dân coi ăn là trời).", "has_hint": true}
+{"zh_raw": "虽然路漫漫其修远兮，但他依然在坚持。", "zh_tagged": "虽然路漫漫其修远兮<vi: Lộ Mạn Mạn Kỳ Tu Viễn Hề>，但他依然在坚持。", "vi": "Mặc dù Lộ Mạn Mạn Kỳ Tu Viễn Hề, nhưng anh ấy vẫn đang kiên trì.", "has_hint": true}
 {"zh_raw": "这位是武功高强的武功大师。", "zh_tagged": "这位是武功<vi: Võ Công>高强<vi: Cao Cường>的武功<vi: Võ Công>大师。", "vi": "Vị này là bậc thầy Võ Công có võ công cao cường.", "has_hint": true}
-{"zh_raw": "南京市长江大桥是非常宏伟的建筑。", "zh_tagged": "南京市长江大桥<vi: Trường Giang Đại Kiều>是非常宏伟的建筑。", "vi": "Cầu Trường Giang thành phố Nam Kinh là công trình kiến trúc vô cùng hùng vĩ.", "has_hint": true}
-{"zh_raw": "人工智能正在改变我们的生活。", "zh_tagged": "人工智能<vi: Nhân Công Trí Năng>正在改变我们的生活。", "vi": "Trí tuệ nhân tạo đang thay đổi cuộc sống của chúng ta.", "has_hint": true}
-{"zh_raw": "自然语言处理是人工智能的重要分支。", "zh_tagged": "自然语言<vi: Tự Nhiên Ngữ Ngôn>处理是人工智能<vi: Nhân Công Trí Năng>的重要分支。", "vi": "Xử lý ngôn ngữ tự nhiên là một nhánh quan trọng của trí tuệ nhân tạo.", "has_hint": true}
+{"zh_raw": "南京市长江大桥是非常宏伟的建筑。", "zh_tagged": "南京市长江大桥<vi: Trường Giang Đại Kiều>是非常宏伟的建筑。", "vi": "Trường Giang Đại Kiều thành phố Nam Kinh là kiến trúc vô cùng hùng vĩ.", "has_hint": true}
+{"zh_raw": "人工智能正在改变我们的生活。", "zh_tagged": "人工智能<vi: Nhân Công Trí Năng>正在改变我们的生活。", "vi": "Nhân Công Trí Năng đang thay đổi cuộc sống của chúng ta.", "has_hint": true}
+{"zh_raw": "自然语言处理是人工智能的重要分支。", "zh_tagged": "自然语言<vi: Tự Nhiên Ngữ Ngôn>处理是人工智能<vi: Nhân Công Trí Năng>的重要分支。", "vi": "Tự Nhiên Ngữ Ngôn xử lý là một nhánh quan trọng của Nhân Công Trí Năng.", "has_hint": true}
 {"zh_raw": "张三和李四是好朋友。", "zh_tagged": "张三<vi: Trương Tam>和李四<vi: Lý Tứ>是好朋友。", "vi": "Trương Tam và Lý Tứ là bạn tốt.", "has_hint": true}
-{"zh_raw": "他在北京大学学习中文。", "zh_tagged": "他在北京大学<vi: Bắc Kinh Đại Học>学习中文。", "vi": "Anh ấy học tiếng Trung ở Đại học Bắc Kinh.", "has_hint": true}
+{"zh_raw": "他在北京大学学习中文。", "zh_tagged": "他在北京大学<vi: Bắc Kinh Đại Học>学习中文。", "vi": "Anh ấy học ở Bắc Kinh Đại Học để nghiên cứu Trung văn.", "has_hint": true}
