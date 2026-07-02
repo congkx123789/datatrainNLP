@@ -2,3 +2,10 @@ datasets==2.20.0
 huggingface_hub
 tqdm
 requests
+transformers
+torch
+sentencepiece
+sacremoses
+ctranslate2
+zhconv
+jieba

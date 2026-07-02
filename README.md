@@ -13,6 +13,7 @@ This repository contains the dataset preparation and local benchmarking framewor
   - `train_tiny.py`: Hugging Face Seq2Seq model training script.
   - `optimize_and_benchmark.py`: Benchmarks model speed using CTranslate2 and quantization.
 - `Huong_Dan_Colab.md`: Step-by-step tutorial on how to run training on Google Colab GPU.
+- `Setup_And_Data_Restoration.md`: Comprehensive guide for setting up the project on a new machine and restoring/rebuilding raw data structures.
 
 ## Quick Start (Local Benchmark)
 
