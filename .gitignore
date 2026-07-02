@@ -2,6 +2,14 @@
 data/raw/opensubtitles.jsonl
 data/raw/wmt19.jsonl
 data/raw/zh_vi_opensubtitles.jsonl
+data/raw/tatoeba.jsonl
+
+# Ignored processed datasets and dictionaries
+data/processed/train_constrained.jsonl
+data/processed/thuocl_filtered_4plus.txt
+data/embeddings/
+dictionaries/
+venv/
 
 # Ignored model weights and exports
 data/ct2_models/

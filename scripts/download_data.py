@@ -18,32 +18,77 @@ def download_thuocl():
 
 def download_tatoeba():
     print("Downloading Tatoeba dataset...")
-    tatoeba_data = load_dataset("Helsinki-NLP/tatoeba", lang1="en", lang2="zh", split="train", trust_remote_code=True)
-    tatoeba_path = os.path.join(RAW_DIR, 'tatoeba.jsonl')
-    tatoeba_data.to_json(tatoeba_path, force_ascii=False)
-    print(f"Saved Tatoeba to {tatoeba_path}")
+    import time
+    for attempt in range(5):
+        try:
+            validation_data = load_dataset("Helsinki-NLP/tatoeba_mt", "eng-zho", split="validation", trust_remote_code=True)
+            test_data = load_dataset("Helsinki-NLP/tatoeba_mt", "eng-zho", split="test", trust_remote_code=True)
+            from datasets import concatenate_datasets
+            tatoeba_data = concatenate_datasets([validation_data, test_data])
+            
+            # Map to format compatible with original: {"translation": {"en": ..., "zh": ...}}
+            def format_row(example):
+                return {
+                    "translation": {
+                        "en": example["sourceString"],
+                        "zh": example["targetString"]
+                    }
+                }
+            tatoeba_data = tatoeba_data.map(format_row, remove_columns=tatoeba_data.column_names)
+            tatoeba_path = os.path.join(RAW_DIR, 'tatoeba.jsonl')
+            tatoeba_data.to_json(tatoeba_path, force_ascii=False)
+            print(f"Saved Tatoeba to {tatoeba_path}")
+            return
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}. Retrying in 10 seconds...")
+            time.sleep(10)
+    raise RuntimeError("Failed to download Tatoeba after 5 attempts.")
 
 def download_opensubtitles():
     print("Downloading OpenSubtitles dataset... (This might take a while)")
-    opensub_data = load_dataset("Helsinki-NLP/open_subtitles", lang1="en", lang2="zh_cn", split="train", trust_remote_code=True)
-    opensub_path = os.path.join(RAW_DIR, 'opensubtitles.jsonl')
-    opensub_data.to_json(opensub_path, force_ascii=False)
-    print(f"Saved OpenSubtitles to {opensub_path}")
+    import time
+    for attempt in range(5):
+        try:
+            opensub_data = load_dataset("Helsinki-NLP/open_subtitles", lang1="en", lang2="zh_cn", split="train", trust_remote_code=True)
+            opensub_path = os.path.join(RAW_DIR, 'opensubtitles.jsonl')
+            opensub_data.to_json(opensub_path, force_ascii=False)
+            print(f"Saved OpenSubtitles to {opensub_path}")
+            return
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}. Retrying in 10 seconds...")
+            time.sleep(10)
+    raise RuntimeError("Failed to download OpenSubtitles after 5 attempts.")
 
 def download_wmt19():
     print("Downloading WMT19 dataset... (This might take a while)")
-    wmt_data = load_dataset("wmt/wmt19", "zh-en", split="train", trust_remote_code=True)
-    wmt_path = os.path.join(RAW_DIR, 'wmt19.jsonl')
-    wmt_data.to_json(wmt_path, force_ascii=False)
-    print(f"Saved WMT19 to {wmt_path}")
+    import time
+    for attempt in range(5):
+        try:
+            wmt_data = load_dataset("wmt/wmt19", "zh-en", split="train", trust_remote_code=True)
+            wmt_path = os.path.join(RAW_DIR, 'wmt19.jsonl')
+            wmt_data.to_json(wmt_path, force_ascii=False)
+            print(f"Saved WMT19 to {wmt_path}")
+            return
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}. Retrying in 10 seconds...")
+            time.sleep(10)
+    raise RuntimeError("Failed to download WMT19 after 5 attempts.")
 
 def download_tencent_embeddings():
     print("Downloading Tencent AI Lab Embeddings (Conan-embedding-v2)...")
+    import time
     from huggingface_hub import snapshot_download
     conan_dir = os.path.join(EMBEDDINGS_DIR, 'Conan-embedding-v2')
     os.makedirs(conan_dir, exist_ok=True)
-    snapshot_download(repo_id="TencentBAC/Conan-embedding-v2", local_dir=conan_dir)
-    print(f"Saved Tencent Embeddings to {conan_dir}")
+    for attempt in range(5):
+        try:
+            snapshot_download(repo_id="TencentBAC/Conan-embedding-v2", local_dir=conan_dir)
+            print(f"Saved Tencent Embeddings to {conan_dir}")
+            return
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}. Retrying in 10 seconds...")
+            time.sleep(10)
+    raise RuntimeError("Failed to download Tencent Embeddings after 5 attempts.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download NLP datasets")

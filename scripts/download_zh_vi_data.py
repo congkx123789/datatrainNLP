@@ -9,16 +9,15 @@ os.makedirs(RAW_DIR, exist_ok=True)
 def download_tatoeba_zh_vi():
     print("Downloading Tatoeba Chinese-Vietnamese dataset...")
     try:
-        # Load Tatoeba Chinese-Vietnamese
-        dataset = load_dataset("Helsinki-NLP/tatoeba", lang1="vi", lang2="zh", split="train", trust_remote_code=True)
+        # Load Tatoeba Chinese-Vietnamese using tatoeba_mt as a working fallback
+        dataset = load_dataset("Helsinki-NLP/tatoeba_mt", "vie-zho", split="test", trust_remote_code=True)
         out_path = os.path.join(RAW_DIR, "zh_vi_tatoeba.jsonl")
         
         # Save as JSONL: {"zh": "...", "vi": "..."}
         with open(out_path, 'w', encoding='utf-8') as f:
             for item in dataset:
-                translation = item.get("translation", {})
-                vi_text = translation.get("vi", "").strip()
-                zh_text = translation.get("zh", "").strip()
+                vi_text = item.get("sourceString", "").strip()
+                zh_text = item.get("targetString", "").strip()
                 if vi_text and zh_text:
                     f.write(json.dumps({"zh": zh_text, "vi": vi_text}, ensure_ascii=False) + "\n")
                     
@@ -27,18 +26,17 @@ def download_tatoeba_zh_vi():
         print(f"Error downloading Tatoeba ZH-VI: {e}")
 
 def download_opensubtitles_zh_vi():
-    print("Downloading OpenSubtitles Chinese-Vietnamese dataset (this might take a while)...")
+    print("Downloading OpenSubtitles Chinese-Vietnamese dataset (using nlp_data_zh_vi fallback)...")
     try:
-        # Load OpenSubtitles Chinese-Vietnamese
-        dataset = load_dataset("Helsinki-NLP/open_subtitles", lang1="vi", lang2="zh", split="train", trust_remote_code=True)
+        # Load manhha2502/nlp_data_zh_vi as an alternative to the broken OpenSubtitles ZH-VI link
+        dataset = load_dataset("manhha2502/nlp_data_zh_vi", split="train", trust_remote_code=True)
         out_path = os.path.join(RAW_DIR, "zh_vi_opensubtitles.jsonl")
         
         # Save as JSONL: {"zh": "...", "vi": "..."}
         with open(out_path, 'w', encoding='utf-8') as f:
             for item in dataset:
-                translation = item.get("translation", {})
-                vi_text = translation.get("vi", "").strip()
-                zh_text = translation.get("zh", "").strip()
+                zh_text = item.get("src_lang", "").strip()
+                vi_text = item.get("tgt_lang", "").strip()
                 if vi_text and zh_text:
                     f.write(json.dumps({"zh": zh_text, "vi": vi_text}, ensure_ascii=False) + "\n")
                     

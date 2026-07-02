@@ -28,7 +28,8 @@ def main():
     # Load the 4+ character compound words we filtered earlier
     jieba_4plus = load_wordlist(os.path.join(PROCESSED_DIR, "jieba_filtered_4plus.txt"))
     hanlp_4plus = load_wordlist(os.path.join(PROCESSED_DIR, "hanlp_filtered_4plus.txt"))
-    compound_dict = jieba_4plus.union(hanlp_4plus)
+    thuocl_4plus = load_wordlist(os.path.join(PROCESSED_DIR, "thuocl_filtered_4plus.txt"))
+    compound_dict = jieba_4plus.union(hanlp_4plus).union(thuocl_4plus)
     print(f"Loaded {len(compound_dict):,} compound words (length >= 4).")
     
     input_file = os.path.join(RAW_DIR, "zh_vi_opensubtitles.jsonl")

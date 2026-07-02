@@ -82,7 +82,41 @@ def process_ckip():
         print(f"Skipping CKIP: Please download the CKIP text file manually and save it as: {raw_path}")
         print("Then run this script again to filter it.")
 
+def process_thuocl():
+    print("\n--- Processing THUOCL Dictionaries ---")
+    thuocl_dir = os.path.join(RAW_DIR, "THUOCL", "data")
+    processed_path = os.path.join(PROCESSED_DIR, "thuocl_filtered_4plus.txt")
+    
+    if not os.path.exists(thuocl_dir):
+        print(f"Skipping THUOCL: Directory not found at {thuocl_dir}")
+        return
+        
+    count = 0
+    words = set()
+    for filename in os.listdir(thuocl_dir):
+        if filename.endswith(".txt"):
+            filepath = os.path.join(thuocl_dir, filename)
+            print(f"Parsing THUOCL file: {filename}...")
+            with open(filepath, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    parts = line.split('\t')
+                    if parts:
+                        word = parts[0].strip()
+                        if len(word) >= 4:
+                            words.add(word)
+                            
+    with open(processed_path, 'w', encoding='utf-8') as fout:
+        for word in sorted(words):
+            fout.write(f"{word}\n")
+            count += 1
+            
+    print(f"THUOCL processing complete. Found {count} unique compound words (length >= 4).")
+
 if __name__ == "__main__":
     process_jieba()
     process_hanlp()
     process_ckip()
+    process_thuocl()

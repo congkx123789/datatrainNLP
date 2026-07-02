@@ -100,7 +100,7 @@ def main():
     # Training Arguments (Optimized for Colab GPU T4)
     training_args = Seq2SeqTrainingArguments(
         output_dir=OUTPUT_DIR,
-        evaluation_strategy="epoch" if eval_size > 0 else "no",
+        eval_strategy="epoch" if eval_size > 0 else "no",
         learning_rate=3e-5,                  # Fine-tuning learning rate
         per_device_train_batch_size=16,       # Batch size per device
         per_device_eval_batch_size=16,
@@ -121,7 +121,7 @@ def main():
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=data_collator,
-        tokenizer=tokenizer
+        processing_class=tokenizer
     )
     
     print("\n--- Starting Model Training / Fine-tuning ---")

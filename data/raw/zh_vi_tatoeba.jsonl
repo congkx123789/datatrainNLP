@@ -1,9 +1,439 @@
-{"zh": "更上一层楼才能看到更好的风景。", "vi": "Phải tiến thêm một bước nữa mới có thể nhìn thấy phong cảnh đẹp hơn."}
-{"zh": "古人云：民以食为天。", "vi": "Người xưa nói: Dân dĩ thực vi thiên (Dân coi ăn là trời)."}
-{"zh": "虽然路漫漫其修远兮，但他依然在坚持。", "vi": "Mặc dù đường đi thăm thẳm xa xôi biết bao, nhưng anh ấy vẫn đang kiên trì."}
-{"zh": "这位是武功高强的武功大师。", "vi": "Vị này là bậc thầy Võ Công có võ công cao cường."}
-{"zh": "南京市长江大桥是非常宏伟的建筑。", "vi": "Cầu Trường Giang thành phố Nam Kinh là công trình kiến trúc vô cùng hùng vĩ."}
-{"zh": "人工智能正在改变我们的生活。", "vi": "Trí tuệ nhân tạo đang thay đổi cuộc sống của chúng ta."}
-{"zh": "自然语言处理是人工智能的重要分支。", "vi": "Xử lý ngôn ngữ tự nhiên là một nhánh quan trọng của trí tuệ nhân tạo."}
-{"zh": "张三和李四是好朋友。", "vi": "Trương Tam và Lý Tứ là bạn tốt."}
-{"zh": "他在北京大学学习中文。", "vi": "Anh ấy học tiếng Trung ở Đại học Bắc Kinh."}
+{"zh": "人人都愿意相信美梦可以成真。", "vi": "Ai cũng muốn tin rằng mọi giấc mơ đều có thể trở thành hiện thực."}
+{"zh": "吃大锅饭讲不得什么滋味。", "vi": "Ăn cơm tập thể chả có cái mùi vị gì."}
+{"zh": "他到这里已经半个月了。", "vi": "Ang ấy đến đây đã nửa tháng rồi."}
+{"zh": "他穿衣服一向很随便，颜色、样式都无所谓。", "vi": "Anh ấy ăn mặc vẫn luôn rất tùy tiện, màu sắc, dáng điệu đều thế nào cũng được."}
+{"zh": "他对生活感到很无奈。", "vi": "Anh ấy cảm thấy rất bất lực trong cuộc sống."}
+{"zh": "他今天不见得会来。", "vi": "Anh ấy hôm nay chưa chắc sẽ đến."}
+{"zh": "他没有去，换句话说，他去的这个事实无案可查。", "vi": "Anh ấy không đi, nói cách khác, chẳng có gì chứng minh anh ấy đã đi cả."}
+{"zh": "他想，如果不好好学习，怎么对得起祖国的人民呢？", "vi": "Anh ấy nghĩ, nếu như không học tập cho tốt, làm sao có thể xứng đáng với nhân dân của Tổ quốc đây?"}
+{"zh": "他说的不见得对。", "vi": "Anh ấy nói chưa chắc đã đúng."}
+{"zh": "他对你说了些什么？", "vi": "Anh ấy nói những gì với chị?"}
+{"zh": "他曾在河内工作过。", "vi": "Anh ấy từng làm việc ở Hà Nội."}
+{"zh": "他仍然还在教室里学习。", "vi": "Anh ấy vẫn còn đang học bài ở lớp."}
+{"zh": "他才从图书馆回来。", "vi": "Anh ấy vừa mới ở thư viện về."}
+{"zh": "你这么忙，我不想给你添麻烦。", "vi": "Anh bận rộn như vậy, tôi không muốn anh bận tâm thêm."}
+{"zh": "你就只抄了这么多张啊？", "vi": "Anh chỉ chép được có bây nhiêu trang thôi à?"}
+{"zh": "他只是责怪别人，从不自责。", "vi": "Anh chỉ trách người chứ không trách mình."}
+{"zh": "你有工作经验吗?", "vi": "Anh có kinh nghiệm chuyên môn không?"}
+{"zh": "你要再来一块蛋糕吗？", "vi": "Anh có muốn miếng bánh ngọt khác không?"}
+{"zh": "你看过那部电影吗？", "vi": "Anh đã xem phim ấy chưa ?"}
+{"zh": "你真的不介意我一个人去吗？", "vi": "Anh đi một mình như vậy không sao chứ?"}
+{"zh": "你别再跟他争吵了。", "vi": "Anh đừng cãi nhau với nó nữa."}
+{"zh": "你在哪个学校上学？", "vi": "Anh học ở trường nào?"}
+{"zh": "你想买些什么？", "vi": "Anh muốn mua những gì?"}
+{"zh": "你想怎么说就说吧。", "vi": "Anh muốn nói thế nào thì cứ nói đi."}
+{"zh": "你该走了。", "vi": "Anh nên đi đi."}
+{"zh": "我爱你。", "vi": "Anh phải lòng em."}
+{"zh": "你就要走了，是吗？", "vi": "Anh sắp đi rồi, phải không?"}
+{"zh": "他还没有把情况了解清楚就急忙发表意见。", "vi": "Anh ta chưa biết rõ tình hình đã phát biểu ý kiến ngay."}
+{"zh": "他来这里的目的是什么？", "vi": "Anh ta đến đây vì mục đích gì?"}
+{"zh": "他提出改革研究方法的意见。", "vi": "Anh ta đề xuất ý kiến cải cách phương pháp nghiên cứu."}
+{"zh": "他故意做出不在乎的样子。", "vi": "Anh ta làm ra vẻ không quan tâm."}
+{"zh": "他是来问这件事的第几个人？", "vi": "Anh ta là người thứ bao nhiêu đến đây hỏi việc này?"}
+{"zh": "他买了一把特别大的屠刀，拿出来不停地磨呀抢呀。", "vi": "Anh ta mua một con dao bầu thật to, đem ra cứ mài mài liếc liếc mãi."}
+{"zh": "他放弃了所有希望。", "vi": "Anh ta từ bỏ mọi hy vọng"}
+{"zh": "我爱你胜过其他任何一个人。", "vi": "Anh yêu thương em nhiều hơn ai hết."}
+{"zh": "这首歌也还可以吧？", "vi": "Bài hát ấy cũng hay đấy chứ?"}
+{"zh": "这篇文章很好。", "vi": "Bài văn này rất hay."}
+{"zh": "你需要我们的帮助吗？", "vi": "Bạn có cần chúng tôi giúp đỡ không?"}
+{"zh": "你需要我们的帮助吗？", "vi": "Bạn có cần sự giúp đỡ của chúng tôi không?"}
+{"zh": "这里你可以看到漂亮的颜色组合。", "vi": "Bạn có thể thấy một tổ hợp màu rất đẹp ở đây."}
+{"zh": "你可以随便去哪儿。", "vi": "Bạn có thể tùy ý đi bất cứ đâu."}
+{"zh": "您可以随便去哪儿。", "vi": "Bạn có thể tùy ý đi bất cứ đâu."}
+{"zh": "你相信他在说实话吗？", "vi": "Bạn có tin anh ta đang nói sự thật không?"}
+{"zh": "你相信他在说实话吗？", "vi": "Bạn có tin ông ấy đang nói sự thật không?"}
+{"zh": "你相信他在说实话吗？", "vi": "Bạn có tin ông ta đang nói sự thật không?"}
+{"zh": "你是从哪个国家来的？", "vi": "Bạn đến từ nước nào vậy?"}
+{"zh": "你真是个大好人！", "vi": "Bạn đúng là người tốt bụng!"}
+{"zh": "您可以随便去哪儿。", "vi": "bạn khả dĩ tùy tiện đi bất cứ đâu."}
+{"zh": "你认为她多大？", "vi": "Bạn nghĩ cô ấy bao nhiêu tuổi?"}
+{"zh": "你必须停止吸烟。", "vi": "Bạn phải ngừng hút thuốc."}
+{"zh": "你必须停止吸烟。", "vi": "Bạn phải ngưng hút thuốc."}
+{"zh": "我朋友哪里买过什么东西！", "vi": "Bạn tôi có mua gì đâu?"}
+{"zh": "你男朋友真帅！", "vi": "Bạn trai của bạn đẹp trai quá!"}
+{"zh": "你男朋友真帅！", "vi": "Bạn trai của mày bảnh trai quá!"}
+{"zh": "她又在说这说那。", "vi": "Bà ta lại nói này nói nọ."}
+{"zh": "现在已经九点多了。", "vi": "Bây giờ đã hơn chín giờ rồi."}
+{"zh": "Muiriel现在20岁了。", "vi": "Bây giờ Muiriel được 20 tuổi."}
+{"zh": "现在我来讲第二个问题。", "vi": "Bây giờ tôi sẽ trình bày vấn đề thứ hai."}
+{"zh": "现在太晚了。", "vi": "Bây giờ trễ quá rồi."}
+{"zh": "现在给大家吃个定心丸，今年的研究生分配方案已经基本落实了。", "vi": "Bây giờ xin trấn an mọi người, phương án phân bổ nghiên cứu sinh đã cơ bản hoàn thành."}
+{"zh": "那么多的工作已经把时间全占用了。", "vi": "Bấy nhiêu việc đã chiếm hết cả thì giờ rồi."}
+{"zh": "消磨时间的最有效办法当然还是聊天吹牛侃大山。", "vi": "Biện pháp hiệu quả nhất để giết thời gian nhất đương nhiên vẫn là chuyện trò, chém gió, buôn chuyện."}
+{"zh": "送你一点礼物。", "vi": "Biếu chị một chút quà."}
+{"zh": "这件衣服真漂亮。", "vi": "Bộ đồ này rất đẹp."}
+{"zh": "突然天下起雨来。", "vi": "Bỗng nhiên trời mưa."}
+{"zh": "罪犯们密谋抢劫银行。", "vi": "Bọn tội phạm đang âm mưu cướp ngân hàng."}
+{"zh": "既然你们这么说，那让我再想想。", "vi": "Các cậu đã nói thế, để tớ nghĩ xem đã."}
+{"zh": "这张桌子不好。", "vi": "Cái bàn này không tốt."}
+{"zh": "他那个样子啊，别提了！", "vi": "Cái bộ dạng đó của anh ta, đừng nhắc đến nữa!"}
+{"zh": "这个箱子沉得过分了。", "vi": "Cái hòm này quá nặng."}
+{"zh": "这个照相机是德国制造的。", "vi": "Cái máy ảnh này được sản xuất tại Đức."}
+{"zh": "这台机器是由我国制造出来的。", "vi": "Cái máy này do nước ta chế tạo ra."}
+{"zh": "这个人只顾自己，不顾别人，你要他帮忙，准得碰钉子。", "vi": "Cái người này chỉ quan tâm đến bản thân, không để ý đến người khác, cậu muốn anh ta giúp á, chắc chắn bị cự tuyệt."}
+{"zh": "这人最不像话，随地吐痰。", "vi": "Cái người này là kinh tởm nhất, khạc nhổ bừa bãi."}
+{"zh": "此处禁止停车。", "vi": "Cấm đậu xe nơi đây."}
+{"zh": "停止大声说话。", "vi": "Cấm nói lớn tiếng."}
+{"zh": "你这房子真不错！", "vi": "Căn phòng này của bạn rất đẹp!"}
+{"zh": "你把报纸借给我。", "vi": "Cậu cho mình mượn tờ báo."}
+{"zh": "你相信他在说实话吗？", "vi": "Cậu có tin nó đang nói sự thật không?"}
+{"zh": "你很好强，爱面子，但是这有什么必要呢！人生最重要的不是这个", "vi": "Cậu rất hiếu thắng, sỹ diện, nhưng cái này có gì cần thiết đâu! Đời người quan trọng nhất không phải điều đó."}
+{"zh": "人体的组织是由细胞构成的。", "vi": "Cấu tạo cơ thể người là do các tế bào tạo thành."}
+{"zh": "没一个人来过。", "vi": "Chẳng ai đến cả."}
+{"zh": "她既学越语又学英语。", "vi": "Chị ấy đã học tiếng Việt lại học cả tiếng Anh nữa."}
+{"zh": "你刚说的是什么地方？", "vi": "Chỗ anh vừa nói là đâu hả anh?"}
+{"zh": "玩这些电脑游戏要反应灵敏。", "vi": "Chơi trò chơi điện tử này cần phải phản ứng nhanh nhạy."}
+{"zh": "呻吟未止忘良医。", "vi": "Chưa khỏi rên đã quên thầy."}
+{"zh": "我们不能让对方钻空子。", "vi": "Chúng ta không thể để đối phương thừa cơ được."}
+{"zh": "我们应该同事好好合作，不要老师给人家出难题。", "vi": "Chúng ta nên hợp tác tốt với đồng nghiệp, đừng suốt ngày làm khó người ta."}
+{"zh": "我们走进教室。", "vi": "Chúng tôi bước vào lớp học."}
+{"zh": "我们努力向你们学习。", "vi": "Chúng tôi cố gắng học tập các đồng chí."}
+{"zh": "我们也同意。", "vi": "Chúng tôi cũng đồng ý."}
+{"zh": "我们已经等了那么久。", "vi": "Chúng tôi đã chờ đợi bấy lâu."}
+{"zh": "我们算计着改革生产流程。", "vi": "Chúng tôi đang cân nhắc thay đổi quá trình sản xuất."}
+{"zh": "我们向菜园走去。", "vi": "Chúng tôi đi về phía vườn rau."}
+{"zh": "由于噪音，我们无法入睡。", "vi": "Chúng tôi không ngủ được vì ồn quá."}
+{"zh": "我们很想去。", "vi": "Chúng tôi rất muốn đi."}
+{"zh": "我们再进一步说明一下，便于同志们了解。", "vi": "Chúng tôi xin trình bày thêm để các đồng chí rõ."}
+{"zh": "主人听到那句话，不由得哈哈大笑起来。", "vi": "Chủ nhân nghe thấy câu nói đó, không thể kìm được mà bật cười lớn."}
+{"zh": "本次列车开往中山公园。", "vi": "Chuyến xe lửa này sẽ đi đến công viên ZhongShan."}
+{"zh": "有谁来找我，你就说我出去了。", "vi": "Có ai đến tìm tôi thì anh bảo tôi đi vắng."}
+{"zh": "她已经能够结婚了，也就是说，她是有夫之妇。", "vi": "Cô ấy đã có thể kết hôn rồi, nói cách khác, cô ấy là người phụ nữ đã có chồng."}
+{"zh": "她邀请我们去她的生日派对。", "vi": "Cô ấy mời chúng tôi đến dự buổi tiệc sinh nhật của cô ấy."}
+{"zh": "她拥抱了一下儿子,然后让他上床睡觉。", "vi": "Cô ấy ôm con vào lòng, sau đó để nó ngủ trên giường."}
+{"zh": "这所房子不时进行扩建。", "vi": "Cô ấy rất sùng bái ông ta không chịu lắng nghe lời đánh giá của người khác về ông ấy."}
+{"zh": "她对我们很亲切。", "vi": "Cô ấy rất thân thiết với chúng tôi."}
+{"zh": "她把所有的业余时间都用在钓鱼上了。", "vi": "Cô ấy sử dụng thời gian rảnh rỗi để câu cá."}
+{"zh": "这个满脸稚气的小女孩刚刚五岁，谁知道她竟是这幅获奖作品的作者。", "vi": "Cô bé mặt đầy vẻ ngây ngô này mới được 5 tuổi, ai mà biết cô bé lại là tác giả của tác phẩm đoạt giải này."}
+{"zh": "就你一个人去啊！", "vi": "Có mình anh đi thôi à!"}
+{"zh": "她一个人看来看去，大约看了半个小时。", "vi": "Cô ngắm đi ngắm lại một mình độ nửa giờ."}
+{"zh": "事先打个招呼，别叫我临时抓瞎。", "vi": "Cứ chào hỏi một câu trước đã, không đến lúc lại vội vội vàng vàng."}
+{"zh": "与此同时，电台也播出了这条消息。", "vi": "Cùng lúc đó, đài truyền hình cũng phát sóng tin tức này."}
+{"zh": "既然买了桌子就一并把椅子也买了吧。", "vi": "Đã mua cái bàn thì mua luôn cái ghế."}
+{"zh": "已经下了两天雨了，我想今天大概要晴了，哪知道从早晨到晚上又下了一整天。", "vi": "Đã mưa hai ngày rồi, tớ nghĩ hôm nay chắc là phải nắng rồi, biết đâu được là lại mưa cả ngày trời từ sáng sớm đến tối."}
+{"zh": "那是一个好意见。", "vi": "Đấy là một ý kiến hay."}
+{"zh": "灯光太暗了，我没法阅读。", "vi": "Đèn tối quá, tôi không thể đọc sách."}
+{"zh": "由此可见，她是很有前途的电影演员。", "vi": "Điều này cho thấy, anh ấy là một diễn viên điện ảnh rất có tiền đồ."}
+{"zh": "团结一切可以团结的力量。", "vi": "Đoàn kết mọi lực lường có thể đoàn kết được."}
+{"zh": "阅读改善思想。", "vi": "Đọc sách sẽ cải thiện suy nghĩ."}
+{"zh": "她对大家都很亲切。", "vi": "Đối với mọi người, nó đều rất thân thiết."}
+{"zh": "那是下个月的事。", "vi": "Đó là chuyện tháng sau."}
+{"zh": "不要再把我当成“正常” 人!", "vi": "Đừng coi tôi như người \"bình thường\"!"}
+{"zh": "别逼我！", "vi": "Đừng ép tôi!"}
+{"zh": "不要担心，我会一直在你身边。", "vi": "Đừng lo lắng, anh sẽ luôn ở bên em."}
+{"zh": "不要担心，我会一直在你身边。", "vi": "Đừng lo, lúc nào tao cũng ở bên mày."}
+{"zh": "别着急，你要的电影票我给你按时送到就是了。", "vi": "Đừng vội, cái vé xem phim cậu muốn tớ sẽ gửi đến đúng giờ cho cậu là được chứ gì."}
+{"zh": "不要看不起有缺点的人，因为每个人都会有缺点的。", "vi": "Đừng xem thường những người có khuyết điểm, bởi vì mỗi người đều có thể có khuyết điểm."}
+{"zh": "她对我们很亲切。", "vi": "Em ấy rất thân thiết với chúng tôi."}
+{"zh": "近来各方面都有所改进。", "vi": "Gần đây tất cả đều được cải tiến toàn diện."}
+{"zh": "娶你的！ 你就会这一句。", "vi": "Ghét anh! Anh chỉ biết nói mỗi câu ý thôi à"}
+{"zh": "他们俩工作上联系多，经常打交道。", "vi": "Hai người họ có liên hệ nhiều trong công việc, thường xuyên giao thiệp với nhau."}
+{"zh": "我每天6点起床。", "vi": "Hàng ngày sáu giờ tôi dậy."}
+{"zh": "有成千的人来参加今天的集会。", "vi": "Hàng nghìn người đến dự cuộc mít tinh hôm nay."}
+{"zh": "河内是越南的首都。", "vi": "Hà Nội là thủ đô của nước Việt Nam."}
+{"zh": "要努力完成计划。", "vi": "Hãy ra sức hoàn thành kế hoạch."}
+{"zh": "他们生活得很幸福。", "vi": "Họ đã có một cuộc sống hạnh phúc."}
+{"zh": "问他是被老板“炒了鱿鱼”了，还是他“炒了”老板？", "vi": "Hỏi anh ta xem anh ta bị sếp sa thải rồi, hay là anh ta sa thải sếp rồi?"}
+{"zh": "小时候我没有自行车。", "vi": "Hồi nhỏ tôi không có xe đạp."}
+{"zh": "今天这个天气，可真是的，怎么偏在这时候下起雨来了。", "vi": "Hôm nay cái thời tiết này, thật là, sao lại cứ nhè cái lúc này mà mưa chứ."}
+{"zh": "今天很热。", "vi": "Hôm nay cực nóng."}
+{"zh": "今天是６月１８号，也是Muiriel的生日！", "vi": "Hôm nay là ngày 18 tháng sáu, và cũng là ngày sinh nhật của Muiriel!"}
+{"zh": "今天下这么大的雨，土松着呢。", "vi": "Hôm nay mưa to thế này thì đất bở lắm đấy."}
+{"zh": "“今天够热的” – “可不是, 比昨天热多了”", "vi": "“Hôm nay nóng thật đấy” – “Chuẩn lun, nóng hơn hôm qua nhiều”"}
+{"zh": "昨天你买了一本新出版的越南词典，是吗？", "vi": "Hôm qua anh mua được một quyển từ điển mới xuất bản phải không?"}
+{"zh": "昨天，我收到一封用英语写的信。", "vi": "Hôm qua, tôi có nhận một bức thư viết bằng tiếng Anh."}
+{"zh": "这个计划虽然已经决定实施了，但是具体细节还需要从长计议。", "vi": "Kế hoạch này mặc dù đã được quyết định thực thi, nhưng mà các chi tiết cụ thể vẫn cần phải được cân nhắc kỹ."}
+{"zh": "办事的时候走后门，是很不好的。", "vi": "Khi giải quyết công việc mà đi cửa sau là rất không tốt."}
+{"zh": "做学生的时候一点苦也不能吃，将来到社会上一定要碰钉子。", "vi": "Khi là học sinh một chút khổ sở cũng không chịu nổi, tương lai bước vào xã hội nhất định sẽ gặp phải khó khăn."}
+{"zh": "我刚到广州时，因不懂广州话，常常闹笑话。", "vi": "Khi tôi mới đến Quảng Châu, vì không hiểu tiếng Quảng Châu, nên thường làm trò cười cho người khác."}
+{"zh": "我跟他说话的时候，他一直往旁边看。", "vi": "Khi tôi nói chuyện với nó, nó cứ luôn nhìn qua bên cạnh."}
+{"zh": "我跟他说话的时候，他一直往旁边看。", "vi": "Khi tôi nói chuyện với ổng, ổng cứ luôn nhìn qua bên cạnh."}
+{"zh": "没人去，只好我一个人去了。", "vi": "Không ai đi thì tôi đi một mình vậy."}
+{"zh": "不用了，谢谢。", "vi": "Không, cám ơn."}
+{"zh": "不管侵略者什么时候来, 都必被消灭。", "vi": "Không cần biết khi nào kẻ thù đến, chúng đều phải bị tiêu diệt"}
+{"zh": "不开夜车，工作搞不完。", "vi": "Không cày đêm, việc làm không xong."}
+{"zh": "不立即解决，那桩事会马上告吹的。", "vi": "Không giải quyết ngay thì việc đó sẽ hỏng bây giờ đây."}
+{"zh": "不关我的事。", "vi": "Không phải chuyện của tôi."}
+{"zh": "一点也不便宜，贵得不得了。", "vi": "Không rẻ 1 tí nào, đắt khủng khiếp."}
+{"zh": "下一个节假日正好是周日。", "vi": "Kỳ nghỉ tới rơi đúng vào ngày chủ nhật."}
+{"zh": "又来了，又来了。你真能拿我开心。", "vi": "Lại thế rồi, lại thế rồi. Cậu thật là biết lấy tớ ra làm trò cười đấy."}
+{"zh": "请你给我一杯水。", "vi": "Làm ơn cho tôi một cốc nước."}
+{"zh": "孩子，你为什么哭呀？说给我听听。", "vi": "Làm sao con khóc? Nói cho ta nghe."}
+{"zh": "这样做，一来可以认识更多的中国朋友，二来可以锻炼你的口语。", "vi": "Làm thế này, một là có thể biết nhiều bạn bè Trung Quốc, hai là có thể luyện khẩu ngữ."}
+{"zh": "这次到北京来，一方面想游览北京的名胜古迹，另一方面也想看看多年不见的老朋友。", "vi": "Lần này đến Bắc Kinh, một mặt là muốn du ngoạn các danh lam thắng cảnh của Bắc Kinh, mặt khác thì là cũng muốn gặp những người bạn cũ đã lâu không gặp."}
+{"zh": "老王很谦虚，他说：“叫我负责可不行，跑跑龙套还可以。”", "vi": "Lão Vương rất khiêm tốn, ông nói: “Bảo tôi phụ trách thì không phải, hỗ trợ thôi thì còn được”."}
+{"zh": "把那两本书拿出来！", "vi": "Lấy hai quyển sách ấy ra!"}
+{"zh": "保养类的面膜 可以不清洗。", "vi": "Loại mặt nạ dưỡng da có thể không được rỡa sạch."}
+{"zh": "他睡着的时候，一个高个子的男人钻空子偷走了他的手机。", "vi": "Lúc anh ấy ngủ say, một người đàn ông dáng cao cao đã thừa cơ lấy trộm chiếc điện thoại của anh ấy."}
+{"zh": "小时候我没有自行车。", "vi": "Lúc còn nhỏ, tôi không có xe đạp."}
+{"zh": "当时我没想到这个问题。", "vi": "Lúc đó, tôi không nghĩ đến vấn đề này."}
+{"zh": "这个国家的军事力量很先进。", "vi": "Lực lượng quân sự nước này rất hiện đại."}
+{"zh": "这个国家的军事力量很先进。", "vi": "Lực lượng quân sự nước này rất tiên tiến."}
+{"zh": "他的工资被削减到最低程度。", "vi": "Lương của nó bị cắt giảm tới mức thấp nhất."}
+{"zh": "这些蚕的吐丝量很大。", "vi": "Lượng tơ nhả ra của những con tằm này rất lớn."}
+{"zh": "我们的眼睛需要时间来适应黑暗。", "vi": "Mắt của chúng ta cần thời gian để điều chỉnh với bóng tối."}
+{"zh": "密码是\"Muiriel\"。", "vi": "Mật mã là \"Muiriel\"."}
+{"zh": "黑色很衬你。", "vi": "màu đen hợp với bạn"}
+{"zh": "飞机消失在丛林中。", "vi": "Máy bay biến mất vào trong rừng."}
+{"zh": "飞往北京的飞机就要起飞了。", "vi": "Máy bay đến Bắc Kinh sắp cất cánh."}
+{"zh": "飞机降落在新山一机场。", "vi": "Máy bay xuống sân bay Tân Sơn Nhất."}
+{"zh": "你认识他吗?", "vi": "Mày có biết nó không?"}
+{"zh": "你犯得上这样做吗？", "vi": "Mày có đáng phải làm thế này không?"}
+{"zh": "这几条狗，它们灵着呢。", "vi": "Mấy con chó này chúng nó khôn lắm."}
+{"zh": "你相信他在说实话吗？", "vi": "Mày có tin nó đang nói sự thật không?"}
+{"zh": "你相信他在说实话吗？", "vi": "Mày có tin ổng đang nói sự thật không?"}
+{"zh": "你既然已经知道了，还问什么？", "vi": "Mày đã biết rồi còn phải hỏi gì nữa?"}
+{"zh": "云是天空中的水汽团。", "vi": "Mây là do hơi nước trong không trung tích tụ thành."}
+{"zh": "你必须停止吸烟。", "vi": "Mày phải dừng hút thuốc."}
+{"zh": "你必须停止吸烟。", "vi": "Mày phải ngừng hút thuốc."}
+{"zh": "妈，怎么爸爸一批评我，你就敲边鼓！", "vi": "Mẹ, sao ba vừa phê bình con là mẹ liền đứng bên cổ vũ thế!"}
+{"zh": "每次见面都打招呼。", "vi": "Mỗi lần gặp mặt đều chào hỏi."}
+{"zh": "每人读一段。", "vi": "Mỗi người đọc một đoạn."}
+{"zh": "大家干得正起劲，你千万不能泼冷水。", "vi": "Mọi người làm việc đang hào hứng, cậu nhất định không được phá vỡ khí thế đó."}
+{"zh": "大家事先要搞好调查研究，把方案设计得周密些，以便少走弯路。", "vi": "Mọi người trước tiên phải điều tra nghiên cứu kỹ đi, thiết kế phương án cẩn thận một chút, để bớt phải đi đường vòng."}
+{"zh": "每件事都要依靠群众。", "vi": "Mỗi việc đều phải dựa vào quần chúng."}
+{"zh": "一个月后，天气就不会像现在这么热了。", "vi": "Một tháng sau thì trời sẽ không nực như bây giờ nữa."}
+{"zh": "北京的秋天一般地说气候比较凉爽。", "vi": "Mùa thu của Bắc Kinh nói chung khí hậu tương đối mát mẻ dễ chịu."}
+{"zh": "爱国竞赛的目的是什么？", "vi": "Mục đích thi đua ái quốc là gì?"}
+{"zh": "改革者的目标是要改进政府。", "vi": "Mục tiêu của các nhà cải cách là cải thiện chính phủ."}
+{"zh": "他们奋斗的目标是消灭天花。", "vi": "Mục tiêu phấn đấu của chúng là tiêu diệt bệnh đậu mùa."}
+{"zh": "假如你没有这个程序，你现在就可以去下载。", "vi": "Nếu bạn không có chương trình này, bây giờ bạn có thể tải nó về"}
+{"zh": "如果你喝速溶咖啡，就不需要咖啡壶了。", "vi": "Nếu bạn uống cà phê uống liền, thì không cần đến bình cà phê."}
+{"zh": "既然你看得起我，我就一定热情帮助你。", "vi": "Nếu cậu đã coi trọng tôi, thì tôi nhất định nhiệt tình giúp đỡ cậu."}
+{"zh": "你要是再给我们公司出洋相，我可就不客气了。", "vi": "Nếu cậu lại làm mất mặt công ty chúng ta, tôi không khách khí nữa đâu."}
+{"zh": "如果你喜欢，买就是了。", "vi": "Nếu cậu thích thì mua đi là xong."}
+{"zh": "如果没有太阳，那所有生物都会死。", "vi": "Nếu không có mặt trời thì tất cả động vật đều sẽ chết"}
+{"zh": "明天，我们还来。", "vi": "Ngày mai, chúng tôi còn đến đây."}
+{"zh": "听到消息，她晕倒了。", "vi": "Nghe được tin, cô ấy liền ngất xỉu."}
+{"zh": "听到消息，她晕倒了。", "vi": "Nghe được tin, nó liền té xỉu."}
+{"zh": "除此之外，别无办法。", "vi": "Ngoài cách này ra, chả có cách nào."}
+{"zh": "人生在世，不属于这个阶级就属于那个阶级。", "vi": "Người ta sống trên đời không thuộc về giai cấp này thì thuộc giai cấp khác."}
+{"zh": "你家里都有谁？", "vi": "Nhà anh có những ai?"}
+{"zh": "赶快点，否则要错过公共汽车了。", "vi": "Nhanh lên không bạn lỡ xe buýt."}
+{"zh": "看到他那可笑的样子，大家忍不住笑了。", "vi": "Nhìn thấy dáng vẻ buồn cười đó của anh ấy, mọi người không nhịn được mà cười."}
+{"zh": "这些人想让人们跟着他们走。", "vi": "Những người ấy muốn ngưới ta đi theo họ."}
+{"zh": "然而，相反的理论往往也是真的。", "vi": "Nhưng, sự trái ngược cũng luôn luôn có lý."}
+{"zh": "你看到的都是幻觉。", "vi": "Những thứ mà mày thấy đều là ảo giác."}
+{"zh": "他在屋里不停地走来走去，不知道在想些什么呢？", "vi": "Nó cứ đi đi lại lại trong nhà, không biết đang nghĩ gì?"}
+{"zh": "他既精于数学又精于文学。", "vi": "Nó đã giỏi toán, còn giỏi cả văn."}
+{"zh": "她经受得够多了。", "vi": "Nó đã trải qua rất nhiều chuyện rồi."}
+{"zh": "他提出改革研究方法的意见。", "vi": "Nó đề xuất ý kiến cải cách phương pháp nghiên cứu."}
+{"zh": "他在工作上遇到了麻烦。", "vi": "Nó gặp phải phiền toái khi làm việc."}
+{"zh": "怎么说他都不肯去。", "vi": "Nói thế nào anh ấy cũng không chịu đi."}
+{"zh": "总的来说，这部电影从剧本到银幕是成功的。", "vi": "Nói tóm lại, bộ phim này từ kịch bản đến cách trình chiếu đều thành công."}
+{"zh": "综上所述，我们认为离婚是一种不道德的行为。", "vi": "Nói tóm lại, chúng tôi cho rằng ly hôn là một hành vi không có đạo đức."}
+{"zh": "他说完就站起来走了。", "vi": "Nói xong,anh đứng dậy ra về."}
+{"zh": "他张开双臂, 似乎要拥抱这个世界。", "vi": "Nó mở rộng hai cánh tay như muốn ôm trọn cả thế giới này."}
+{"zh": "他停止扫地，倚着扫帚休息。", "vi": "Nó ngưng quét dọn, dựa vào cây chổi để nghỉ mệt."}
+{"zh": "她对我们很亲切。", "vi": "Nó rất thân thiết với chúng tôi."}
+{"zh": "他胖起来了。", "vi": "Nó tăng cân rồi."}
+{"zh": "他还是个孩子，犯不上跟他生气。", "vi": "Nó vẫn còn là đứa trẻ con, không đáng tức giận với nó."}
+{"zh": "沸水蒸发成气体。", "vi": "Nước sôi bốc thành hơi."}
+{"zh": "我国是一个人口众多，物产丰富的国家。", "vi": "Nước tôi là một nước đông người nhiều của."}
+{"zh": "他不是我父亲，他是我叔叔。", "vi": "Ông ấy không phải ba tôi, ông ta là chú của tôi."}
+{"zh": "他没有白死。", "vi": "Ông ấy không ra đi vô ích."}
+{"zh": "他胖起来了。", "vi": "Ông ấy tăng cân rồi."}
+{"zh": "他提出改革研究方法的意见。", "vi": "Ổng đề xuất ý kiến cải cách phương pháp nghiên cứu."}
+{"zh": "那个老人非常 亲切。", "vi": "Ông già đó rất nhiệt tình."}
+{"zh": "羊屁股先生可没告诉我还有搭档。", "vi": "Ông Ramsbottom chẳng nói cho tôi biết còn có đối tác."}
+{"zh": "他觉得必须报道这件事。", "vi": "Ông ta cảm thấy phải báo cáo sự việc này."}
+{"zh": "他提出改革研究方法的意见。", "vi": "Ông ta đề xuất ý kiến cải cách phương pháp nghiên cứu."}
+{"zh": "您赞成还是反对他的想法？", "vi": "Ông tán thành hay phản đối ý kiến của nó?"}
+{"zh": "你的房间真干净。", "vi": "Phòng của bạn thật sạch sẽ."}
+{"zh": "哪间卧室都干净。", "vi": "Phòng ngủ nào cũng sạch sẽ."}
+{"zh": "我们女同志怎么不行？妇女能顶半边天嘛！", "vi": "Phụ nữ chúng tôi sao lại không được? Phụ nữ có thể gánh vác nửa bầu trời mà!"}
+{"zh": "我军似潮水般大踏步前进。", "vi": "Quân ta tiến mạnh như vữ bão."}
+{"zh": "你为什么老说个不停？", "vi": "Sao anh cứ nói mãi."}
+{"zh": "你为什么不回答？", "vi": "Sao bạn không trả lời?"}
+{"zh": "为什么现在才到。", "vi": "Sao bây giờ mới đến."}
+{"zh": "为什么现在才来？", "vi": "Sao bây giờ mới đến?"}
+{"zh": "为什么喝那么多药？", "vi": "Sao uống lắm thuốc thế?"}
+{"zh": "今年我系的学生人数是去年的三倍。", "vi": "Số học sinh khoa chúng tôi năm nay nhiều gấp 3 năm ngoái."}
+{"zh": "学生人数一年比一年增加。", "vi": "Số học sinh mỗi năm một tăng."}
+{"zh": "我的房间号是多少？", "vi": "Số phòng của tôi là số nào?"}
+{"zh": "事实证明了我们的担心是多余的。", "vi": "Sự thật chứng minh rằng những gì chúng tôi lo lắng là dư thừa."}
+{"zh": "事情不那么简单，你要用脑子好好想想，不能盲目地随大流。", "vi": "Sự việc không đơn giản thế đâu, cậu phải dùng đầu óc mà suy nghĩ cho kỹ, không thể chạy theo đám đông một cách mù quáng được."}
+{"zh": "你怎么会不知道？", "vi": "Tại sao bạn lại có thể không biết được?"}
+{"zh": "为什么我们不订披萨呢？", "vi": "Tại sao chúng ta không đặt bánh Pizza?"}
+{"zh": "那是一张近照吗？", "vi": "Tấm hình này có mới không?"}
+{"zh": "我们应该互相帮助。", "vi": "Ta nên giúp đỡ nhau."}
+{"zh": "人人都愿意相信美梦可以成真。", "vi": "Tất cả mọi người đều muốn tin rằng những giấc mơ có thể trở thành hiện thực."}
+{"zh": "她把所有的业余时间都用在钓鱼上了。", "vi": "Tất cả thời gian rảnh rỗi, cô ấy đều đi câu cá."}
+{"zh": "当然。", "vi": "Tất nhiên."}
+{"zh": "这小伙子既能干又积极，真是没说的。", "vi": "Thằng nhóc đó vừa năng động vừa tích cực, thật sự là không chê được."}
+{"zh": "真不好意思，让您久等了。", "vi": "Thật ngại quá, để chú chờ lâu."}
+{"zh": "真不好意思，让您久等了。", "vi": "Thật ngại quá, để cô chờ lâu."}
+{"zh": "真不好意思，让您久等了。", "vi": "Thật ngại quá, để ông chờ lâu."}
+{"zh": "你见过新来的那家邻居了吗？", "vi": "Thế bạn đã gặp gia đình mới trong khu phố chúng mình chưa?"}
+{"zh": "竞赛是爱国。", "vi": "Thi đua là yêu nước."}
+{"zh": "现在的时代是原子时代。", "vi": "Thời đại bây giờ là thời đại nguyên tử."}
+{"zh": "如果你爱我的话，也要爱我的狗。", "vi": "Thương em thương cả đường đi lối về."}
+{"zh": "这种布既便宜又结实。", "vi": "Thứ vải này đã rẽ lại bền."}
+{"zh": "我校图书馆藏书二百五十万册。", "vi": "Thư viện trường chúng tôi có hai triệu rưởi quyển sách."}
+{"zh": "可惜这是真的。", "vi": "Tiếc rằng cái đó là sự thật."}
+{"zh": "越南语真的难学。", "vi": "Tiếng Việt thật sự rất khó học."}
+{"zh": "小张一会儿就把电视机修理好了，他有两下子，我佩服他！", "vi": "Tiểu Trương một lúc đã sửa xong cái tivi, anh ấy có thực lực, tôi khâm phục anh ấy!"}
+{"zh": "小王，我可以用一下你的自行车吗？那没说的，你骑走吧！", "vi": "Tiểu Vương, tớ có thể dùng cái xe đạp của cậu một chút không? Cái đó khỏi phải nói, cậu đạp đi."}
+{"zh": "他心脏停止了跳动, 随即死亡。", "vi": "Tim ông ta ngừng đập và chết ngay sau đó."}
+{"zh": "数学是所有科学的基础。", "vi": "Toán học là nền tảng của tất cả các môn khoa học"}
+{"zh": "我认识这些学生。", "vi": "Tôi biết những sinh viên này."}
+{"zh": "我想花点时间斟酌斟酌再作决定。", "vi": "Tôi cần một ít thời gian cân nhắc để có quyết định."}
+{"zh": "我无奈只得跟随着她。", "vi": "Tôi chẳng biết phải làm sao, đành phải theo cô ấy."}
+{"zh": "我只知道这些。", "vi": "Tôi chỉ biết thế thôi."}
+{"zh": "我只是随便谈谈自己不成熟的看法，无所谓有研究。", "vi": "Tôi chỉ là tùy tiện nói ra cách nghĩ còn chưa chín chắn lắm của mình, không đến mức gọi là có nghiên cứu gì."}
+{"zh": "我哪里说过那样的话？", "vi": "Tôi có nói thế đâu?"}
+{"zh": "我也和你想的一样。", "vi": "Tôi cũng nghĩ như anh."}
+{"zh": "我吃过了。", "vi": "Tôi đã ăn rồi."}
+{"zh": "我已经会英语了。", "vi": "Tôi đã biết tiếng Anh rồi."}
+{"zh": "我在检查这里有没有激光警报装置。", "vi": "Tôi đang kiểm tra xem ở đây có thiết bị báo động laser hay không."}
+{"zh": "我正在跟谁讲话？", "vi": "Tôi đang nói chuyện với ai đây?"}
+{"zh": "我在海上已经生活了好几个月。", "vi": "Tôi đã sống hàng tháng trên biển."}
+{"zh": "我一个人去那边。", "vi": "Tôi đi qua đó một mình."}
+{"zh": "我知道了那个消息。", "vi": "Tôi được biết tin đó."}
+{"zh": "我知道相信这一点。", "vi": "Tôi được biết tin đó."}
+{"zh": "我经常遇见他。", "vi": "Tôi gặp anh ấy luôn."}
+{"zh": "我好心好意的管待他们，他们也不见得就这样对我。", "vi": "Tôi hết lòng hết ý khoản đãi họ, họ cũng chưa chắc sẽ đối với tôi như thế."}
+{"zh": "我十分反对这个项目。", "vi": "Tôi hoàn toàn phản đối kế hoạch."}
+{"zh": "不用谢.", "vi": "Tôi không dám."}
+{"zh": "别太客气。", "vi": "Tôi không dám."}
+{"zh": "我不认识那个人。", "vi": "Tôi không quen người ấy."}
+{"zh": "我的鼻子没办法呼吸了。", "vi": "Tôi không thể thở bằng mũi."}
+{"zh": "好像我做电灯泡了。我该走了。", "vi": "Tôi là người thứ ba rùi, vậy phải đi thôi."}
+{"zh": "我买到了一辆新摩托车。", "vi": "Tôi mua được một cái mô-tô mới."}
+{"zh": "我该走这条路，还是那条路？", "vi": "Tôi nên đi đường này hay đi đường kia?"}
+{"zh": "我永远记得那件事。", "vi": "Tôi nhớ mãi việc ấy."}
+{"zh": "我太阳穴处疼极了。", "vi": "Tôi nhức thái dương quá."}
+{"zh": "我该去睡觉了。", "vi": "Tôi phải đi ngủ đây."}
+{"zh": "我该去睡觉了。", "vi": "Tôi phải đi ngủ."}
+{"zh": "我很抱歉在这个时候打扰。", "vi": "Tôi rất xin lỗi vì làm phiền vào lúc này."}
+{"zh": "我会尽量不打扰你复习。", "vi": "Tôi sẽ cố không quấy rầy bạn học hành."}
+{"zh": "我认为这个消息应该通知大家。", "vi": "Tôi thấy tin đó nên báo cho mọi người biết."}
+{"zh": "我会拒绝他吃晚饭的邀请。", "vi": "Tôi từ chối lời mời cơm tối của anh ấy."}
+{"zh": "我进大学已经两年半了。", "vi": "Tôi vào đại học đã được hai năm rưỡi."}
+{"zh": "我只写了两行。", "vi": "Tôi viết có hai dòng thôi."}
+{"zh": "我正好赶上了最后一班火车。", "vi": "Tôi vừa kịp lúc bắt chuyến xe lửa cuối cùng."}
+{"zh": "我很抱歉用这种方式把你请来。", "vi": "Tôi xin lỗi vì đã dùng cách này để đưa anh đến."}
+{"zh": "我怎么比得上你呢，你有个铁饭碗，饿不着！", "vi": "Tớ làm sao sánh với cậu được, cậu có cái cần câu cơm vững chắc, không đói được đâu!"}
+{"zh": "汤姆是我朋友的朋友。", "vi": "Tom là bạn của bạn tôi."}
+{"zh": "我一个人能行，你放心就是了。", "vi": "Tớ một mình được mà, cậu cứ yên tâm đi."}
+{"zh": "今天比赛又爆冷门，一向默默无闻的火车头队一举夺得团体赛冠军。", "vi": "Trận thi đấu hôm nay lại có kết quả bất ngờ, đội đầu máy xe lửa chẳng ai biết đến từ trước nay lại một đòn mà đoạt quán quân trong trận thi đấu đồng đội."}
+{"zh": "知识是什么？", "vi": "Trí thức là gi?"}
+{"zh": "在今年头3个月中，我军消灭敌军五万五。", "vi": "Trong 3 tháng đầu năm nay, quân ta đã diệt 5 vạn rưởi quân địch."}
+{"zh": "会场内，掌声、哨声、喊声、笑声乱成了一锅粥。", "vi": "Trong hội trường, tiếng vỗ tay, tiếng còi, tiếng hò hét, tiếng cười hỗn loạn."}
+{"zh": "在企业整顿中，要坚持高标准，严要求，防止走过场。", "vi": "Trong lúc doanh nghiệp đang tổ chức lại, phải kiên trì với tiêu chuẩn cao, yêu cầu nghiêm ngặt, ngăn chặn việc làm chiếu lệ hời hợt."}
+{"zh": "清理的时候，我们看到了些他的东西。", "vi": "Trong lúc dọn dẹp, chúng tôi đã tình cờ tìm được một số thứ của ông nhà."}
+{"zh": "考试前，你根本没复习，能考好吗？ – 可也是。", "vi": "Trước kỳ thi cậu căn bản chẳng ôn tập gì, có thi tốt nổi không? – Cũng đúng"}
+{"zh": "目前正在考虑是否由她来做这项工作。", "vi": "Trước mắt đang cân nhắc xem có để cho anh ta làm công việc này hay không."}
+{"zh": "药吃多了，对身体不见得好。", "vi": "Uống nhiều thuốc không hẳn là tốt cho sức khỏe."}
+{"zh": "这个问题很麻烦。", "vi": "Vấn đề này phiền phức vô cùng."}
+{"zh": "这个问题很麻烦。", "vi": "Vấn đề này rất phiền phức."}
+{"zh": "人造卫星从河内上空飞过。", "vi": "Vệ tinh nhân tạo đã bay qua Hà Nội."}
+{"zh": "为女儿婚事，很伤脑筋。", "vi": "Vì chuyện hôn sự của con gái mà rất đau đầu."}
+{"zh": "局长对我们一风吹的做法提出了批评。", "vi": "Việc cục trưởng bỏ qua tất cả cho chúng tôi đã gây ra sự phê bình."}
+{"zh": "事情已经定下来了，我们再怎么努力也无济于事了，一切都是马后炮了。", "vi": "Việc đã định rồi, chúng ta có cố gắng thế nào nữa cũng vô ích , tất cả đều đã là muộn màng rồi."}
+{"zh": "那件事我们还不知道。", "vi": "Việc đó, chúng tôi chưa biết."}
+{"zh": "这件事你自己决定就是了。", "vi": "Việc này cậu tự quyết định là được rồi."}
+{"zh": "王院长为人正派，办事公道，没给人穿过小鞋，大家都尊敬他。", "vi": "Viện trưởng Vương xử sự ngay thẳng, làm việc công minh, chưa từng gây khó dễ cho ai, mọi người đều tôn kính ông ấy."}
+{"zh": "所以别人都不愿意和你合作。", "vi": "Vì vậy họ đều không muốn hợp tác với anh."}
+{"zh": "才4点钟他就起床了。", "vi": "Vừa mới 4 giờ mà anh ấy đã dậy."}
+{"zh": "刚才是和你闹着玩儿的，你别当真。", "vi": "Vừa nãy là đùa với cậu thôi, cậu đừng tưởng thật."}
+{"zh": "这是没办法的。", "vi": "Vụ này hết cách rồi."}
+{"zh": "你的车很快，但是我的更快。", "vi": "Xe của cậu rất nhanh, nhưng xe của tớ nhanh hơn."}
+{"zh": "你的车很快，但是我的更快。", "vi": "Xe của mày rất nhanh, nhưng xe của tao nhanh hơn."}
+{"zh": "真不好意思，让您久等了。", "vi": "Xin lỗi đã để ông đợi lâu."}
+{"zh": "爱你们的同学！爱你们的父母！爱你们的国家！", "vi": "Yêu bạn bè, yêu cha mẹ, yêu tổ quốc."}
+{"zh": "他跑得能有多快就有多快。", "vi": "Anh ấy chạy nhanh nhất mà anh ấy có thể."}
+{"zh": "他被工厂的老板解雇。", "vi": "Anh ấy đã bị ông chủ công xưởng sa thải."}
+{"zh": "他一拿了信就去了紐約。", "vi": "Anh ấy đã đến New York ngay khi nhận được lá thư."}
+{"zh": "他昨天抵達東京。", "vi": "Anh ấy đã đến Tokyo hôm qua."}
+{"zh": "他太多事了。", "vi": "Anh ấy lắm chuyện quá."}
+{"zh": "你忙，我自己干也行。", "vi": "Anh bận, tôi tự mình làm lấy cũng được."}
+{"zh": "你可以走了。", "vi": "Anh có thể đi."}
+{"zh": "你去就免得我再去了。", "vi": "Anh đi thì tôi khỏi đi."}
+{"zh": "他狀態真的很好。", "vi": "Anh ta có một cơ thể thật đẹp."}
+{"zh": "你在干什麼啊？", "vi": "Bạn đang làm gì đây?"}
+{"zh": "你喜歡棒球到甚麼程度？", "vi": "Bạn mê bóng chày cỡ nào ?"}
+{"zh": "你應該去睡覺了吧。", "vi": "Bạn nên đi ngủ đi."}
+{"zh": "你非常勇敢。", "vi": "Bạn rất dũng cảm."}
+{"zh": "越南八月革命是一次民族解放革命。", "vi": "Cách mạng tháng tám Việt Nam là một cuộc cách mạng giải phóng dân tộc."}
+{"zh": "那是因為妳是女生。", "vi": "Cái đó tại vì bạn là đàn bà."}
+{"zh": "這是什麼啊？", "vi": "Cái này là gì?"}
+{"zh": "這個永遠完不了了。", "vi": "Cái này xẽ không bao giờ chấm giứt."}
+{"zh": "禁止停車。", "vi": "Cấm đậu xe."}
+{"zh": "聖誕節快樂！", "vi": "Chúc mừng giáng sinh!"}
+{"zh": "我們是相見恨晚。", "vi": "Chúng ta gặp nhau quá muộn."}
+{"zh": "我們試試看！", "vi": "Chúng ta hãy thử một vài thứ."}
+{"zh": "有一部分人不同意。", "vi": "Có một số người không đồng ý."}
+{"zh": "我很快就會回來。", "vi": "Con sẽ trở về sớm."}
+{"zh": "一直往前走。", "vi": "Cứ đi thẳng tới phía trước."}
+{"zh": "一直往前走。", "vi": "Cứ đi tới phía trước."}
+{"zh": "一起來吧。", "vi": "Cùng nhau tới nhé."}
+{"zh": "正在下雨。", "vi": "Đang mưa."}
+{"zh": "好疼! 停下!", "vi": "Đau quá! Dừng lại!"}
+{"zh": "這是程度的問題。", "vi": "Đây là vấn đề về mức độ."}
+{"zh": "我今晚有空。", "vi": "Đêm nay tôi rảnh rỗi."}
+{"zh": "迪克打算自己去。", "vi": "Dick dự tính tự đi một mình."}
+{"zh": "那是一隻有惡意的兔子。", "vi": "Đó là một con thỏ hung ác."}
+{"zh": "這是我聽過最好笑的笑話。", "vi": "Đó là truyện cười vui nhất mà tôi đã từng nghe."}
+{"zh": "同意。", "vi": "Đồng ý."}
+{"zh": "不要擔心。", "vi": "Đừng lo."}
+{"zh": "如果我可以像那樣的話...", "vi": "Giá mà tôi cũng như vậy..."}
+{"zh": "聖誕節快樂！", "vi": "Giáng sinh vui vẻ!"}
+{"zh": "所有的人都知道那件事。", "vi": "Hết cả mọi người đều biết chuyện đó."}
+{"zh": "今天是周五，明天就是周末了！", "vi": "Hôm nay là thứ sáu, ngày mai là ngày cuối tuần rồi!"}
+{"zh": "我昨天被解雇了。", "vi": "Hôm qua tôi đã bị sa thải."}
+{"zh": "趕快!", "vi": "Mau lên!"}
+{"zh": "你可以走了。", "vi": "Mày có thể đi."}
+{"zh": "他的身体太瘦了。", "vi": "Mình anh ta gầy quá."}
+{"zh": "五乘二等于十。", "vi": "Năm lần hai là mười."}
+{"zh": "五乘二等于十。", "vi": "Năm nhân hai bằng mười."}
+{"zh": "明天我能去你家。", "vi": "Ngày mai tôi đến nhà anh được."}
+{"zh": "趕快!", "vi": "Nhanh lên!"}
+{"zh": "他吃了毒蘑菇。", "vi": "Nó ăn phải nấm độc."}
+{"zh": "他跑得能有多快就有多快。", "vi": "Nó chạy nhanh nhất mà nó có thể."}
+{"zh": "它有改善了。", "vi": "Nó đã được cải thiện rồi."}
+{"zh": "他問我快不快樂。", "vi": "Nó hỏi tôi có vui không."}
+{"zh": "他是我的手下。", "vi": "Nó là thuộc hạ của tôi."}
+{"zh": "他把座位讓給了老人。", "vi": "Nó nhường chỗ cho người già."}
+{"zh": "他把座位讓給了老人。", "vi": "Nó nhường chỗ cho người lớn tuổi."}
+{"zh": "哦！有一隻蝴蝶！", "vi": "Ô kìa, con bươm bướm!"}
+{"zh": "他問我快不快樂。", "vi": "Ông ấy hỏi con có vui không."}
+{"zh": "教授微微笑了笑。", "vi": "Ông giáo sư mỉm cười."}
+{"zh": "大部份的人覺得我瘋了。", "vi": "Phần nhiều người ta nghĩ tôi điên."}
+{"zh": "到了最後，大家一定要靠自己學習。", "vi": "Rốt cuộc, ai cũng phải tự học thôi."}
+{"zh": "那是不會發生的。", "vi": "Sẽ không xảy ra đâu."}
+{"zh": "我要把他射下來。", "vi": "Tao sẽ bắn nó suống."}
+{"zh": "太郎說英語，不是嗎？", "vi": "Taro nói tiếng anh, phải không ?"}
+{"zh": "那又怎樣?", "vi": "Thì sao?"}
+{"zh": "天气真好 ！", "vi": "Thời tiết thật đẹp!"}
+{"zh": "這些藥是給我父親買的。", "vi": "Thuốc này là ba mẹ mua cho tôi."}
+{"zh": "我的英文很差。", "vi": "Tiếng Anh của tôi rất tệ."}
+{"zh": "在某種程度上我能了解你。", "vi": "Tôi có thể hiểu bạn ở mức độ nào đó."}
+{"zh": "我抓到了這個男人正在偷錢。", "vi": "Tôi đã bắt kịp thằng ăn cắp tiền này."}
+{"zh": "我昨天被解雇了。", "vi": "Tôi đã bị sa thải hồi hôm qua."}
+{"zh": "我昨天被解雇了。", "vi": "Tôi đã bị sa thải ngày hôm qua."}
+{"zh": "我看了一本書。", "vi": "Tôi đã xem một quyển sách."}
+{"zh": "我看了他的書。", "vi": "Tôi đã xem sách của nó."}
+{"zh": "我看了他的書。", "vi": "Tôi đã xem sách của ông ấy."}
+{"zh": "我看了他的書。", "vi": "Tôi đã xem sách của ông ta."}
+{"zh": "我看了他的書。", "vi": "Tôi đã xem sách của ổng."}
+{"zh": "我到了。", "vi": "Tôi đến."}
+{"zh": "我不知道應該說什麼才好。", "vi": "Tôi hết lời để nói."}
+{"zh": "我只是不知道應該說什麼而已……", "vi": "Tôi không biết nên nói gì cả..."}
+{"zh": "我不知道。", "vi": "Tôi không biết."}
+{"zh": "不客气", "vi": "Tôi không dám."}
+{"zh": "我不是工人。", "vi": "Tôi không phải là công nhân."}
+{"zh": "我無法讓他停止吸煙。", "vi": "Tôi không thể bắt nó ngừng hút thuốc."}
+{"zh": "我好胖哦。", "vi": "Tôi mập quá."}
+{"zh": "我想你能理解的。", "vi": "Tôi nghĩ anh có thể hiểu."}
+{"zh": "我想你能理解的。", "vi": "Tôi nghĩ anh có thể lý giải được."}
+{"zh": "我努力的改善我的成績。", "vi": "Tôi nổ lực cải thiện thành tích của tôi."}
+{"zh": "我必須向Tom解釋這個。", "vi": "Tôi phải giải thích cho Tom điều này."}
+{"zh": "我明天回來的時候會跟他們聯絡。", "vi": "Toi se goi ho ngay mai."}
+{"zh": "我真的不知道。", "vi": "Tôi thật sự không biết."}
+{"zh": "我很快就會回來。", "vi": "Tôi trở lại mau."}
+{"zh": "我以前在山里。", "vi": "Tôi từ trên núi xuống."}
+{"zh": "自由是有代价的。", "vi": "Tự do không đồng nghĩa với được tự do."}
+{"zh": "哪裡有問題?", "vi": "Vấn đề ở đâu?"}
+{"zh": "對工作的熱愛是通往幸福的鑰匙。", "vi": "Yêu thích công việc là chìa khóa dẫn đến hạnh phúc."}
+{"zh": "生日快乐，Muiriel！", "vi": "Chúc mừng sinh nhật, Muiriel!"}
