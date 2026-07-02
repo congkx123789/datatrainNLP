@@ -10,7 +10,9 @@ CSV_PATH = os.path.join(RAW_DIR, "hanviet.csv")
 class HanVietConverter:
     def __init__(self):
         self.char_map = {}
+        self.custom_map = {}
         self.load_dictionary()
+        self.load_custom_dictionary()
 
     def load_dictionary(self):
         if not os.path.exists(CSV_PATH):
@@ -36,12 +38,32 @@ class HanVietConverter:
                 if char not in self.char_map:
                     self.char_map[char] = hanviet_list[0] if hanviet_list else ""
 
+    def load_custom_dictionary(self):
+        custom_csv = os.path.join(RAW_DIR, "custom_dict.csv")
+        if os.path.exists(custom_csv):
+            print(f"Loading custom compound dictionary from {custom_csv}...")
+            with open(custom_csv, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                # Skip header
+                next(reader, None)
+                for row in reader:
+                    if len(row) >= 2:
+                        zh_word = row[0].strip()
+                        vi_word = row[1].strip()
+                        self.custom_map[zh_word] = vi_word
+            print(f"Loaded {len(self.custom_map)} custom word mappings.")
+
     def convert_char(self, char):
         # Convert Simplified to Traditional Chinese first
         trad_char = zhconv.convert(char, 'zh-hant')
         return self.char_map.get(trad_char, char)
 
     def convert_word(self, word):
+        # 1. Prioritize custom compound dictionary translation
+        if word in self.custom_map:
+            return self.custom_map[word]
+            
+        # 2. Fallback to character-by-character HanViet
         converted = []
         for char in word:
             converted.append(self.convert_char(char).capitalize())
