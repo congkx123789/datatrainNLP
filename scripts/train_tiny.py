@@ -64,8 +64,11 @@ def main():
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
     
     # Add special tokens for constraints mapping
-    # This prevents the tokenizer from splitting '<vi:' and '>' into subwords
-    special_tokens = ["<vi:", ">"]
+    # Register both source POS placeholders and target index placeholders
+    special_tokens = [
+        "<1|nr>", "<2|nr>", "<1|ns>", "<2|ns>", "<3|d>", "<4|a>", "<5|n>", "<1|nt>", "<2|n>", "<1|n>",
+        "<1>", "<2>", "<3>", "<4>", "<5>", "<6>", "<7>", "<8>", "<9>", "<10>"
+    ]
     num_added_toks = tokenizer.add_tokens(special_tokens)
     print(f"Added {num_added_toks} special tokens to the tokenizer.")
     
@@ -106,7 +109,7 @@ def main():
         per_device_eval_batch_size=16,
         weight_decay=0.01,
         save_total_limit=2,
-        num_train_epochs=50,                  # Overfit to 50 epochs for quick local CPU demo
+        num_train_epochs=30,                  # Train for 30 epochs on CPU for quick demo
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),      # Enable half-precision (FP16) training if GPU is present
         logging_steps=10,
