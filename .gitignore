@@ -21,6 +21,8 @@ dictionaries/missing_compounds.txt
 dictionaries/Vietphrase.txt
 dictionaries/han_readings_lookup.csv
 *.bak
+*.bak2
+
 
 
 
