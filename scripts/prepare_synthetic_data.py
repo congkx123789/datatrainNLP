@@ -13,7 +13,7 @@ def main():
         {"zh": "古人云：民以食为天。", "vi": "Cổ Nhân Vân: Dân dĩ thực vi thiên (Dân coi ăn là trời)."},
         {"zh": "虽然路漫漫其修远兮，但他依然在坚持。", "vi": "Mặc dù Lộ Mạn Mạn Kỳ Tu Viễn Hề, nhưng anh ấy vẫn đang kiên trì."},
         {"zh": "这位是武功高强的武功大师。", "vi": "Vị này là bậc thầy Võ Công có võ công cao cường."},
-        {"zh": "南京市长江大桥是非常宏伟的建筑。", "vi": "Trường Giang Đại Kiều thành phố Nam Kinh là kiến trúc vô cùng hùng vĩ."},
+        {"zh": "南京市长江大桥是非常雄伟的建筑。", "vi": "Trường Giang Đại Kiều thành phố Nam Kinh là kiến trúc phi thường hùng vĩ."},
         {"zh": "人工智能正在改变我们的生活。", "vi": "Nhân Công Trí Năng đang thay đổi cuộc sống của chúng ta."},
         {"zh": "自然语言处理是人工智能的重要分支。", "vi": "Tự Nhiên Ngữ Ngôn xử lý là một nhánh quan trọng của Nhân Công Trí Năng."},
         {"zh": "张三和李四是好朋友。", "vi": "Trương Tam và Lý Tứ là bạn tốt."},

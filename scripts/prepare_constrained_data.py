@@ -99,8 +99,8 @@ def main():
                 has_hint = False
                 
                 for word, flag in words_with_tags:
-                    # If it's a long compound word, or an idiom, or proper noun, and it has a valid HanViet translation
-                    if (word in compound_dict or flag in ['i', 'l', 'nr']) and len(word) >= 2:
+                    # Allow tagging for all compound words of length >= 2
+                    if len(word) >= 2:
                         # Find HanViet reading
                         hanviet = converter.convert_word(word)
                         # We strip spaces for names, or keep them. Let's keep them capitalized.
