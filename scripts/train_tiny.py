@@ -100,17 +100,17 @@ def main():
     # Training Arguments (Optimized for Colab GPU T4)
     training_args = Seq2SeqTrainingArguments(
         output_dir=OUTPUT_DIR,
-        evaluation_strategy="epoch" if eval_size > 0 else "no",
+        eval_strategy="no",
         learning_rate=3e-5,                  # Fine-tuning learning rate
         per_device_train_batch_size=16,       # Batch size per device
         per_device_eval_batch_size=16,
         weight_decay=0.01,
         save_total_limit=2,
-        num_train_epochs=5,                  # Epochs count
+        num_train_epochs=50,                  # Overfit to 50 epochs for quick local CPU demo
         predict_with_generate=True,
         fp16=torch.cuda.is_available(),      # Enable half-precision (FP16) training if GPU is present
         logging_steps=10,
-        save_strategy="epoch",
+        save_strategy="no",                  # Don't save checkpoints during overfit run
         report_to="none"                     # Disable wandb logging to keep it simple
     )
     
@@ -119,9 +119,8 @@ def main():
         model=model,
         args=training_args,
         train_dataset=train_dataset,
-        eval_dataset=eval_dataset,
         data_collator=data_collator,
-        tokenizer=tokenizer
+        processing_class=tokenizer
     )
     
     print("\n--- Starting Model Training / Fine-tuning ---")
