@@ -115,7 +115,7 @@ def main():
                         
                         # If any part of the HanViet reading matches the Vietnamese sentence
                         if any(hw in vi_norm for hw in hv_words if len(hw) > 2) or flag == 'nr':
-                            tagged_zh.append(f"{word}<vi: {hanviet}>")
+                            tagged_zh.append(f"{word}<vi: {hanviet}|{flag}>")
                             has_hint = True
                         else:
                             tagged_zh.append(word)
